@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author   = 'John Engelhart'
   s.source   = { :git => 'https://github.com/adamotte/JSONKit.git', :branch => 'master' }
 
-  s.source_files = 'JSONKit.*'
+  s.source_files = 'JSONKit.{h,m}'
   s.requires_arc = false
 end
